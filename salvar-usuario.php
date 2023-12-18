@@ -5,7 +5,7 @@ switch ($_REQUEST['acao']) {
         // Recolhe os dados do formulário
         $nome = $_POST['nome'];
         $email = $_POST['email'];
-        $senha = md5($_POST['senha']); // Usando md5 para criptografar a senha
+        $senha = md5($_POST['senha']);
         $data_nasc = $_POST['data_nasc'];
 
         // Monta a query para inserir os dados na tabela usuarios
