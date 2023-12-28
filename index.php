@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +10,14 @@
 
     <title>Cadastro</title>
 </head>
+
 <body>
     <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">Cadastro</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Itens da barra de navegação -->
@@ -32,7 +35,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>  
 
     <div class="container mt-4">
         <div class="row">
@@ -64,4 +67,5 @@
     <!-- Importando o arquivo JavaScript do Bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
